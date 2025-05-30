@@ -2,7 +2,7 @@ from kubernetes import client, config
 from flask import Flask, jsonify, request
 import logging
 
-DEFAULT_NAMESPACE = "multipaper"
+DEFAULT_NAMESPACE = "multipaper-joan"
 DEFAULT_DEPLOYMENT_NAME = "multipaper-server"
 
 config.load_incluster_config()
